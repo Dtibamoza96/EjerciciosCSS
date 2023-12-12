@@ -1,0 +1,42 @@
+h1 + p::first-letter {
+	font-size: 3rem;
+	float: left;
+	color: darkred;
+	border: 3px ridge darkgoldenrod;
+	padding: 16px;
+	background-color: gold;
+	margin: 8px;
+}
+
+blockquote::before {
+	color: darkgreen;
+	content: open-quote;
+	background-color: rgba(0, 0, 0, .12);
+	padding: 8px;
+	font-size: 3rem;
+}
+
+blockquote::after {
+	color: darkgreen;
+	content: close-quote;
+	background-color: rgba(0, 0, 0, .12);
+	padding: 8px;
+	font-size: 3rem;
+}
+
+blockquote {
+	background-color: rgba(0, 0, 0, .12);
+	padding: 8px;
+}
+
+a {
+	color: blue;
+}
+	
+a:visited{
+	color: gold;
+}
+
+a:hover, a:focus{
+ 	color: rebeccapurple;
+}

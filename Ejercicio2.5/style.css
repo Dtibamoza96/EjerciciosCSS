@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+article {
+    border: 1px grey solid;
+    margin: 10px;
+    width:250px;
+}
+
+.lista > p{
+    border: 1px grey solid;
+}
+
+h3, p ,a{
+    padding: 10px;
+}

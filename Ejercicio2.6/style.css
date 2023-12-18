@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    color: white;
+    background-color: darkslategrey;
+    border-bottom: 1px solid green;
+    align-items:center;
+    display: flex;
+    justify-content:space-around;
+    
+    
+}
+
+nav .lista{
+    list-style: none;
+    align-items:center;
+    display:flex;
+    justify-content:space-around;
+}
+
+#home{
+    margin-left: 10px;
+}
+
+#link {
+    margin-left: 10px;
+    color: darkgray;
+}
+#dropdown{
+    margin-left: 10px;
+    color: darkgray;
+}
+
+
+button{
+    margin-left: 10px;
+    background-color: darkslategrey;
+    border: 0px;
+}
+
+#disabled{
+    margin-right: 40px;
+}
+
+#search {
+    background-color: darkslategrey;
+    color: green;
+    border: 1px green solid;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+select{
+    width: 15px;
+    background-color: darkslategrey;
+    border: 0px;
+
+}
+
+form{
+    margin-left: 10px;
+}

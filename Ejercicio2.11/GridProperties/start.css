@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: grid;
+    text-align: left;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+}
+
+#green {
+    background-color: green;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 100px;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+
+#yellow {
+    display: grid;
+    margin-right: 10px;
+    grid-row-start: 2 ;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: yellow;
+}
+
+#orange {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: orange;
+    height: 100px;
+    margin-top: 10px;
+
+}
+
+#blue {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: blue;
+    margin-left: 10px;
+}
+
+#red {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: red;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 70px 70px ;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+    background-color: white;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 60px;
+}
+
+p{
+    padding: 20px;
+}

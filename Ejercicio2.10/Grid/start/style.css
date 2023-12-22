@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#grid-container {
+    margin: 10px;
+    border-top: 1px white solid;
+    border-radius: 5px;
+    display: grid;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, minmax(1em, 1fr));
+    grid-template-rows: repeat(6, minmax(1em, 1fr));
+    grid-template-areas:
+    "total total total total"
+    "suma resta multiplicacion division"
+    "siete ocho nueve igualdad"
+    "cuatro cinco seis igualdad"
+    "uno dos tres igualdad"
+    "cero punto borrar igualdad";
+    
+}
+
+button {
+    border: 1px grey solid;
+    width: 1fr;
+    height: 50px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#total{
+    color: white;
+    width: 100%;
+    grid-area: total;
+    border: none;
+    text-align: right;
+    padding-right: 10px;
+    background-color: grey;
+    font-size: x-large;
+}
+#suma{
+    border-left: 0px;
+    background-color: lightblue;
+    grid-area: suma;
+}
+#resta{
+    background-color: lightblue;
+    grid-area: resta;
+}
+#multiplicacion{
+    background-color: lightblue;
+    grid-area: multiplicacion ;
+}
+#division{
+    border-right: 0px;
+    background-color: lightblue;
+    grid-area: division;
+}
+#igualdad{
+    border-right: 0px;
+    border-bottom: 0px;
+    background-color: coral;
+    height: 100%;
+    grid-area: igualdad;
+}
+#nueve{
+    grid-area: nueve;
+}
+#ocho{
+    grid-area: ocho;
+}
+#siete{
+    border-left: 0px;
+    grid-area: siete;
+}
+#seis{
+    grid-area: seis;
+}
+#cinco{
+    grid-area: cinco;
+}
+#cuatro{
+    border-left: 0px;
+    grid-area: cuatro;
+}
+#tres{
+    grid-area: tres;
+}
+#dos{
+    grid-area: dos;
+}
+#uno{
+    border-left: 0px;
+    grid-area: uno;
+}
+#cero{
+    border-left: 0px;
+    border-bottom: 0px;
+    grid-area: cero;
+    border-end-start-radius: 5px grey solid;
+}
+#punto{
+    border-bottom: 0px;
+    grid-area: punto;
+}
+#borrar{
+    border-bottom: 0px;
+    grid-area: borrar;
+}

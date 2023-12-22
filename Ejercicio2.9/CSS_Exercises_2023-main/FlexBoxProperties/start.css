@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+    justify-content: first baseline;
+    padding: 0px 20px;
+}
+
+li {
+    background-color: white;
+    width: 15px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+
+section{
+    padding: 10px;
+}
+
+p {
+    padding: 25px 15px;
+}
+
+#green {
+    background-color: green;
+    width: 80px;
+}
+
+#yellow {
+    order: -2;
+    background-color: yellow;
+    width: 100px;
+}
+
+#red {
+    order:-1;
+    background-color: red;
+    width: 100px;
+}
+
+#blue {
+    background-color: blue;
+    width: 70px;
+}
+
+#orange {
+    background-color: orange;
+    width: 250px;
+}
